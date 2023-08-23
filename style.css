@@ -107,6 +107,13 @@ section{
     color:white
 }
 
+
+.contact ul li a i :hover{
+    color: yellow;
+}
+
+
+
 @media screen and (max-width: 765px){
     section{
         display: block;

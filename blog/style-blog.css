@@ -77,6 +77,7 @@ section{
     border-radius: 1vw;
     background-color: rgba(128, 128, 128, 0.267);
     padding: .5vw;
+    display: flex;
 
 }
 
@@ -88,13 +89,13 @@ section{
 .post-blog div{
     border-radius: 1vw;
 }
-.post-blog div ul{
+.container-post ul{
     list-style: none;
     display: flex;
     border-radius: 1vw;
     background-color: black;
 }
-.post-blog div ul li {
+.container-post ul li {
     padding-left: .4vw;
     margin: .5vw;
     color: white;
@@ -102,6 +103,13 @@ section{
 
 
 
+.post-blog img{
+    width: 20%;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
 
 
 
@@ -109,11 +117,48 @@ section{
 
 
 
+/* blog post */
+
+.posts-blog{
+    font-size: .9vw;
+    border-radius: 1vw;
+    background-color: rgba(128, 128, 128, 0.267);
+    padding: .5vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.posts-blog div h4{
+    padding: .5vw;
+    
+}
+
+.posts-blog div{
+    border-radius: 1vw;
+}
+.container-post ul{
+    list-style: none;
+    display: flex;
+    border-radius: 1vw;
+    background-color: black;
+}
+.container-post ul li {
+    padding-left: .4vw;
+    margin: .5vw;
+    color: white;
+}
 
 
 
-
-
+.posts-blog img{
+    
+    width: 50%;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
 
 
 
