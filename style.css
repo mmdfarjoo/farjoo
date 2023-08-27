@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-color:gray;
+    
 
 }
 
@@ -12,13 +14,12 @@ header , .header-top ul li {
 
 
 .header-top ul{
-    background-color: rgba(0, 0 ,0 ,.100);
-    border-radius: 1vw;
-    box-shadow:inset 1px 1px 1px white;
+    background-color: yellow;
     margin: 0px;
     padding: 0px;
     list-style: none;
     display: flex;
+    justify-content: space-around;
 }
 
 
@@ -29,10 +30,9 @@ header , .header-top ul li {
 
 
 .header-top ul li a {
-    margin-left: 2vw;
-    margin-top: 1vw;
+
     text-decoration: none;
-    color: black;
+    color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1vw;
 }
@@ -48,29 +48,37 @@ section{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-top: 5vw;
+    margin-top: 4vw;
+    
 }
 
 .main{
-    border-radius: 1vw;
     padding: 1.5vw;
-    box-shadow: 0px 0px 10px;
+    box-shadow: -10px -10px 0px yellow;
+    background-color: #121212;
+    color: white;
     
 }
 
-.main .img , .main .text h1 , .main .text h3{
+.img , .text h1 ,.text h3{
     display: flex;
     justify-content: center;
-    margin-top: 1.5vw;
+    margin-top: 1.5vw;    
+        
 }
 
-.main .img img {
+.text h3 {
+    color: yellow;
+}
+
+
+.img img {
     
     margin: 20%;
-    border-radius: 100Vw;
     width: 15vw;
-    box-shadow: 0px 0px 10px;
+    box-shadow: -5px -5px 0px yellow;
 }
+
 
 .main .text h1 {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -83,14 +91,17 @@ section{
 }
 
  .contact{
-    margin: .5vw;
+    margin: 1vw;
+    background-color: #121212;
 }
  .contact ul{
     padding: 0px;
-    border-radius: 5vw;
-    box-shadow: 0px 0px 10px ;
+    box-shadow: -10px -10px 0px yellow;
     list-style: none;
  }
+
+
+
  .contact ul li {
     padding: 1vw;
     transition: 0.5s;
@@ -98,13 +109,14 @@ section{
 
 
 .contact ul li a i {
-    color: black;
+    color: white;
 }
 
 .contact ul li:hover{
     transform: scale(1.5);
     transition: 0.5s;
-    color:white
+    color:white;
+    text-shadow: 0px 0px 5px yellow;
 }
 
 
@@ -119,16 +131,21 @@ section{
         display: block;
         margin-top: -7rem;
         width: 100%;
+        
+    }
+    
+    body{
+        background-color: #121212;
     }
     
     .main{
-        width: 95%;
+        width: 97%;
         margin-top: 28vw;
-        height: 37.4rem;
+        height: 36rem;
         box-shadow: none;
         
     }
-    .main .img img{
+    .img img{
         width: 60vw;
     }
     .main .text h1{
@@ -144,13 +161,12 @@ section{
         width: 70%;
         margin-top: 1vw;
         margin-left: 15%;
-        margin-top: -5vw;
-
     }
     .contact ul{
         padding: 4px;
         display: flex;
         justify-content: space-around;
+        box-shadow: 0px 0px 10px yellow;
     
     }
     .contact ul li{
@@ -164,7 +180,7 @@ section{
 
     .header-top{
 
-        width: 97vw;
+        width: 100% ;
     }
     .header-top ul{
         padding: 20px;
