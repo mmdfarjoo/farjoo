@@ -1,8 +1,5 @@
 
 
-
-
-
 section{
     width: 70%;
     margin: 0 auto;
@@ -22,6 +19,9 @@ section{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
+
+
 
 
 
@@ -137,16 +137,13 @@ section{
     } 
     } 
    
-    .header-top{
 
-        width: 97vw;
-    }
     .header-top ul{
         padding: 20px;
     }
 
     .header-top ul li a{
-        font-size: 4vw;
+        font-size: 5vw;
         padding: 19px;
     }
     .header-top ul li a :nth-child(1){
